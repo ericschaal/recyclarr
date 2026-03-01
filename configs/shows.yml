@@ -3,7 +3,7 @@
 
 sonarr:
   shows:
-    base_url: https://sonarr.home.schaal.dev/settings
+    base_url: https://sonarr.home.schaal.dev
     api_key: ddaa91f606c74591be10008332b13f2e
 
     quality_definition:
