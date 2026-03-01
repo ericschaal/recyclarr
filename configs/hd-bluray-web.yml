@@ -1,16 +1,16 @@
-# TRaSH Guides: Remux + WEB 1080p
-# https://trash-guides.info/Radarr/radarr-setup-quality-profiles/#remux-web-1080p
+# TRaSH Guides: HD Bluray + WEB
+# https://trash-guides.info/Radarr/radarr-setup-quality-profiles/#hd-bluray-web
 
 radarr:
-  remux-web-1080p:
-    base_url: Put your Radarr URL here
-    api_key: Put your API key here
+  hd-bluray-web:
+    base_url: https://radarr.home.schaal.dev
+    api_key: b0bf51850c504116a49746f8fdaa0372
 
     quality_definition:
       type: movie
 
     quality_profiles:
-      - trash_id: 9ca12ea80aa55ef916e3751f4b874151  # Remux + WEB 1080p
+      - trash_id: d1d67249d3890e49bc12e275d989a7e9  # HD Bluray + WEB
         reset_unmatched_scores:
           enabled: true
 
@@ -61,5 +61,4 @@ radarr:
         #     - fbca986396c5e695ef7b2def3c755d01  # OViD
         #     - ab56ccdc473a1f2897c76187ea365be2  # STRP
       skip:
-        # - 9d5acd8f1da78dfbae788182f7605200  # [Audio] Audio Formats
         # - d9cc9a504e5ede6294c8b973aad4f028  # [Streaming Services] General

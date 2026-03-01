@@ -3,8 +3,8 @@
 
 radarr:
   uhd-bluray-web:
-    base_url: Put your Radarr URL here
-    api_key: Put your API key here
+    base_url: https://radarr.home.schaal.dev
+    api_key: b0bf51850c504116a49746f8fdaa0372
 
     quality_definition:
       type: movie
