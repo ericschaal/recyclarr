@@ -17,6 +17,15 @@ sonarr:
         reset_unmatched_scores:
           enabled: true
 
+    custom_formats:
+      - trash_ids:
+          - ae575f95ab639ba5d15f663bf019e3e8 # Language: Original Only
+        assign_scores_to:
+          - name: WEB-2160p
+            score: -10000  # default
+          - name: WEB-1080p
+            score: -10000  # default
+
     custom_format_groups:
       add:
         - trash_id: e3f37512790f00d0e89e54fe5e790d1c  # [Required] Golden Rule UHD

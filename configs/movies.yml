@@ -20,7 +20,7 @@ radarr:
 
     custom_formats:
       - trash_ids:
-          - d6e9318c875905d6cfb5bee961afcea9 # Bad Dual Groups
+          - d6e9318c875905d6cfb5bee961afcea9 # Language: Original Only
         assign_scores_to:
           - name: UHD Bluray + WEB
             score: -10000  # default
