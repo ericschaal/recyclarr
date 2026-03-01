@@ -13,8 +13,7 @@ radarr:
       - trash_id: 64fb5f9858489bdac2af690e27c8f42f  # UHD Bluray + WEB
         reset_unmatched_scores:
           enabled: true
-
-        quality_profiles:
+          
       - trash_id: d1d67249d3890e49bc12e275d989a7e9  # HD Bluray + WEB
         reset_unmatched_scores:
           enabled: true
